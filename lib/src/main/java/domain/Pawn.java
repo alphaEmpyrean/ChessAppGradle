@@ -1,5 +1,12 @@
 package domain;
 
+/**
+ * Creates a new {@link Pawn} instance.
+ *
+ * 
+ * @author JoshuaKnippel
+ *
+ */
 public class Pawn extends GamePiece {
 
 	public Pawn() {
