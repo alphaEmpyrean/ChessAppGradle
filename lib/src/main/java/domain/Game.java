@@ -63,7 +63,8 @@ public class Game {
 	
 	/*
 	 * -Private
-	 * Sets all game pieces in their default starting place on gameBoard. Directly accesses the multidimensional BoardSpace array gameBoard 
+	 * Sets all game pieces in their default starting place on gameBoard. 
+	 * Directly accesses the multidimensional BoardSpace array gameBoard 
 	 * which returns a BoardSpace reference. Use the BoardSpace object's 
 	 * appropriate method to set the game piece 'on' the space.
 	 */
