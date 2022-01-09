@@ -9,8 +9,11 @@ package domain;
  */
 public class Bishop extends GamePiece {
 
+	//================================================================================
+    // Constructors
+    //================================================================================
+	
 	public Bishop() {
 		this.textRepresentation = "xB";
 	}
-
 }

@@ -8,10 +8,13 @@ package domain;
  *
  */
 public class Rooke extends GamePiece {
+
+	//================================================================================
+    // Constructors
+    //================================================================================
 	
 	public Rooke() {
 		this.textRepresentation = "xR";
 		
 	}
-
 }

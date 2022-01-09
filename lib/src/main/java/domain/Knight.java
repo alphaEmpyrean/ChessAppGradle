@@ -8,7 +8,11 @@ package domain;
  *
  */
 public class Knight extends GamePiece {
-
+	
+	//================================================================================
+    // Constructors
+    //================================================================================
+	
 	public Knight() {
 		this.textRepresentation = "xN";
 	}

@@ -8,7 +8,15 @@ package domain;
  */
 public class Game {
 
+	//================================================================================
+    // Variables
+    //================================================================================
+	
 	private BoardSpace[][] gameBoard = new BoardSpace[8][8];
+	
+	//================================================================================
+    // Constructors
+    //================================================================================
 	
 	/**
 	 * Create a new {@link Game} instance.
@@ -17,6 +25,12 @@ public class Game {
 		this.assembleGameBoard();
 		this.populateGameBoard();
 	}
+	
+	//================================================================================
+    // Methods
+    //================================================================================
+	
+	//PUBLIC
 	
 	/**
 	 * Sets the instances gameBoard reference value to that of the
@@ -46,6 +60,8 @@ public class Game {
 		return gameBoard[r][c];
 	}
 
+	//PRIVATE
+	
 	/*
 	 * -Private
 	 * Inserts references to new instances of {@link BoardSpace} into 
