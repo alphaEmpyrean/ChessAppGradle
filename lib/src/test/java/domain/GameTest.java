@@ -16,13 +16,13 @@ import org.junit.jupiter.api.BeforeEach;
  * @author JoshuaKnippel
  *
  */
-@DisplayName("Test Game Class")
+@DisplayName("Test Game class")
 public class GameTest {
 	
-	static Game game;
+	private Game game;
 	
 	/**
-	 * Builds new game instance before each test
+	 * Builds new {@link Game} instance before each test
 	 */
 	@BeforeEach
 	public void beforeEach () {
