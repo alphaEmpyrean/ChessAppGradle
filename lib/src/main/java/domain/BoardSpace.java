@@ -7,10 +7,10 @@ package domain;
  *
  */
 public class BoardSpace {
-
+	
 	//================================================================================
-    // Variables
-    //================================================================================
+	// Variables
+	//================================================================================
 	
 	/**
 	 * Models the behavior of a board space being 'occupied' by a game piece
@@ -18,8 +18,8 @@ public class BoardSpace {
 	private GamePiece currentGamePiece = null;
 	
 	//================================================================================
-    // Methods
-    //================================================================================
+	// Methods
+	//================================================================================
 	
 	/**
 	 * Returns a reference to the {@link GamePiece} that currently occupies the {@link BoardSpace}
