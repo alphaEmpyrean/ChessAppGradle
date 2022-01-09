@@ -48,7 +48,11 @@ import domain.BoardSpace;
  * @author JoshuaKnippel
  */
 public class BoardTextRenderer {
-	
+		
+	//================================================================================
+    // Variables
+    //================================================================================
+
 	/**
 	 * This pattern controls the design for the first and last row of the grid. 
 	 */
@@ -68,6 +72,12 @@ public class BoardTextRenderer {
 	
 	//Local copy of game board reference
 	private BoardSpace[][] gameBoard;
+	
+	//================================================================================
+    // Methods
+    //================================================================================
+	
+	//PUBLIC
 	
 	/**
 	 * Renders the text game board along with the game {@link GamePiece}s. Piece location is 
@@ -133,6 +143,8 @@ public class BoardTextRenderer {
 		this.renderRow(capRowPattern);		
 	}		
 	
+	//PRIVATE
+	
 	/*
 	 * -private
 	 * Renders individual text rows based on the pattern list that is passed to the method.
@@ -159,6 +171,7 @@ public class BoardTextRenderer {
 	}
 	
 	/*
+	 * -private
 	 * Renders individual text rows that contain the {@link GamePiece} text representations. 
 	 * Render is based on the gameBoard row and pattern list that is passed to the method.
 	 * 
@@ -215,6 +228,7 @@ public class BoardTextRenderer {
 	}
 	
 	/*
+	 * -private
 	 * Checks the {@link BoardSpace} at the coordinate provided to see if it is occupied. 
 	 * If it is not occupied the provided string is returned unaltered. If the space is 
 	 * occupied then it replaces the middle 2 characters of the passed string with a text 
