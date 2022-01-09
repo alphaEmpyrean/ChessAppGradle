@@ -16,4 +16,13 @@ public abstract class GamePiece {
 	public String getTextRepresentation() { 
 		return this.textRepresentation;
 	}
+	
+	/**
+	 * Sets instances textRepresentation reference value to that of 
+	 * the String passed to the method
+	 * @param textRepresentation
+	 */
+	public void setTextRepresentation(String textRepresentation) {
+		this.textRepresentation = textRepresentation;
+	}
 }
