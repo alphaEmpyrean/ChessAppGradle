@@ -1,10 +1,19 @@
 package domain;
 
+/**
+ * Creates a new {@link Bishop} instance.
+ *
+ * 
+ * @author JoshuaKnippel
+ *
+ */
 public class Bishop extends GamePiece {
 
+	//================================================================================
+    // Constructors
+    //================================================================================
+	
 	public Bishop() {
-		// TODO Auto-generated constructor stub
 		this.textRepresentation = "xB";
 	}
-
 }
